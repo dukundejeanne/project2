@@ -1,40 +1,56 @@
-/* .container{
-    color:black;
-    border:1px solid grey;
-    box-shadow: 5px 3px 5px grey;
-    box-sizing: 
-    width:30%;
-    margin-left: 30%;
-    margin-right: 30%;
-    top: 50%;
-    padding-top:20px;
-    
-   } */
+/* 
    .container{
     width: 284px;
+    margin-left:30%;
+    margin-right:30%;
     padding: 10px 10px 20px 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
-    background-color: rgb(59, 58, 58);
+    background-color: rgb(126, 126, 126);
     color:white;
     font-family: sans-serif;
     font-size: 25px;
     
+   } */
+   .col-md-4{
+    margin-right: 30%;
+   }
+   body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.6)),url('https://res.cloudinary.com/drrezzrvd/image/upload/v1563547973/4221396001_5375993546001_5375983503001-vs_ao3mqh.jpg');
+       /* background-repeat: no-repeat;
+       */
+       height: 100%;
+       background-size:cover;
    }
    .form-control{
-       width: 30%;
+       width: 40%;
    }
+   .container{
+       margin-top: 10%;
+       position:absolute;
+       
+   }
+   /* .jumbotron{
+   flex-direction: column;
+   } */
    h2{
        text-transform: uppercase;
        font-family: sans-serif;
    }
    .container #submit{
-       background-color: aqua;
+       background-color: rgb(191, 204, 204);
+       border:black;
        /* color:black; */
    }
-   p{
-    color:white;
+   #sell{
+    border:black;
+    widows: 30px;
+}
+.form-control select{
+    width:30%;
+    height:30px;
+
 }
        
        
