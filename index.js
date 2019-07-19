@@ -45,7 +45,7 @@ else if(day==0 && gender=='male'){
 }else if(day==3 && gender=='male'){
     document.getElementById('sell').innerHTML='Kwaku'
 }else if(day==4 && gender=='male'){
-    document.getElementById('sell').innerHTML='Yaw"'
+    document.getElementById('sell').innerHTML='Yaw'
 }else if(day==5 && gender=='male'){
     document.getElementById('sell').innerHTML='kofi'
 }else if(day==6 && gender=='male'){
