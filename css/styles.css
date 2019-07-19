@@ -44,6 +44,10 @@
        border:black;
        /* color:black; */
    }
+   .col-md-4{
+       float: left;
+
+   }
    #sell{
     border:black;
     widows: 30px;
