@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/styles.css" rel ="stylesheet" type="text/css">
+
+    <link href="css/bootstrap.min.css" rel ="stylesheet" type="text/css">
+    
+</head>
+<body>
+<!-- <form action="action_page.php">
+    <div class="form-group">
+        <label >Gender:
+            <input type="checkbox">Female><input type="checkbox">Male</label>
+
+
+    </div>
+
+   </form>  -->
+<div class="container"> 
+        <h2>Horizontal form</h2>
+   <form class="form-class">
+    <div class="form-horizontal">
+      <label for="sell" >Date of Birth:</label>
+      <br>
+      <input id="dob" type="date" name="dob">
+    </div>
+    <label for="sel1">Gender:</label>
+    <select class="form-control" id="gender" value="gender">
+      <option value="female" id="female">Female</option>
+      <option value="male" id="male">Male</option>
+     
+    </select>
+    <p id="sell"></p>
+    <br>
+    <!-- <button type="submit" class="btn btn-default" id="submit" onclick="myapp()">Submit</button> -->
+    <div class="form-group">        
+            <div class="col-sm-offset-2 col-sm-10">
+              <input type="button" id="submit" type="submit" class="btn btn-default" onclick="formCal()">
+            </div>
+            <br>
+  </form>
+</div>
+  <script src="index.js"></script>
+</body>
+</html>
