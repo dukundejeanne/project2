@@ -29,6 +29,8 @@
    .container{
        margin-top: 10%;
        position:absolute;
+       color:black;
+       margin-right: 30%;
        
    }
    /* .jumbotron{
@@ -42,7 +44,8 @@
    .container #submit{
        background-color: rgb(191, 204, 204);
        border:black;
-       /* color:black; */
+       width: 100px;
+       color:black;
    }
    .col-md-4{
        float: left;
@@ -51,6 +54,8 @@
    #sell{
     border:black;
     widows: 30px;
+    font-size:26px;
+    text-transform: uppercase;
 }
 .form-control select{
     width:30%;
