@@ -20,7 +20,7 @@
        text-transform: uppercase;
        font-family: sans-serif;
        text-shadow: 2px 2px 4px;
-       font-size:28px;
+       font-size:20px;
    }
    .container #submit{
        background-color: rgb(191, 204, 204);
@@ -32,7 +32,7 @@
    #sell{
     border:black;
     widows: 30px;
-    font-size:26px;
+    font-size:16px;
     text-transform: uppercase;
 }
 .form-control select{
