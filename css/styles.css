@@ -20,6 +20,7 @@
        text-transform: uppercase;
        font-family: sans-serif;
        text-shadow: 2px 2px 4px;
+       font-size:28px;
    }
    .container #submit{
        background-color: rgb(191, 204, 204);
